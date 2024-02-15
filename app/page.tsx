@@ -13,7 +13,17 @@ export default function Home() {
           - City Walk Downtown and Uptown <br/>
           - Major Areas in Nairobi City including local meals around the city. <br/>
           - Unique way also on Slum tour! <br/> <br/>
-          Contact me on +254706404264
+          Contact me on +254706404264 <br/><br/>
+        <Image
+          className="relative"
+          src="/dan.jpeg"
+          alt="Dan Cox"
+          width={270}
+          height={480}
+          priority
+        />
+
+          
         </p>
 {/*         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
@@ -35,16 +45,9 @@ export default function Home() {
         </div> */}
 {/*       </div> */}
 
-      <div className="relative flex place-items-center">
-        <Image
-          className="relative"
-          src="/dan.jpeg"
-          alt="Dan Cox"
-          width={270}
-          height={480}
-          priority
-        />
-      </div>
+      // <div className="relative flex place-items-center">
+
+      // </div>
 
 {/*       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
