@@ -40,7 +40,8 @@ export default function Home() {
           className="relative"
           src="/dan.jpeg"
           alt="Dan Cox"
-          height={50}
+          width={90}
+          height={160}
           priority
         />
       </div>
