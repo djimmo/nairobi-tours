@@ -16,7 +16,7 @@ export default function Home() {
           Contact me on +254706404264 <br/><br/>
         </p>
         <Image
-          className="relative"
+          className="flex"
           src="/dan.jpeg"
           alt="Dan Cox"
           width={270}
